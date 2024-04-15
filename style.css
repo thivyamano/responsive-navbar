@@ -1,0 +1,208 @@
+*
+{
+	margin: 0;
+	padding: 0;
+}
+nav
+{
+	top: 0;
+	left: 0;
+	background-color: pink;
+	height: 80px;
+	width: 100%;
+	position: sticky;
+	z-index: 10000;
+	
+}
+nav ul
+{
+	
+	float: right;
+	margin-right: 25px;
+}
+nav ul li 
+{
+	display: inline-block;
+	line-height: 80px;
+	margin: 0 65px;
+	font-size: 30px;
+}
+.name img
+{
+	font-size: 35px;
+	position: absolute;
+	margin: 0 200px;
+	margin-top: 7px;
+	/*top: 7px;
+	left: 100px;*/
+	width: 70px;
+	height: 70px;
+}
+@media(max-width:1400px){
+	nav ul
+	{
+		
+		float: right;
+		margin-right: 25px;
+	}
+	nav ul li 
+	{
+		display: inline-block;
+		line-height: 80px;
+		margin: 0 65px;
+		font-size: 30px;
+	}
+	.name img
+	{
+		font-size: 35px;
+		position: absolute;
+		margin: 0 200px;
+		margin-top: 7px;
+		width: 70px;
+		height: 70px;
+	}
+}
+@media (max-width:1200px)
+{
+	nav ul
+	{
+		
+		float: right;
+		margin-right: 25px;
+	}
+	nav ul li 
+	{
+		display: inline-block;
+		line-height: 80px;
+		margin: 0 55px;
+		font-size: 30px;
+	}
+	.name img
+	{
+		font-size: 35px;
+		position: absolute;
+		margin: 0 150px;
+		margin-top: 7px;
+		width: 70px;
+		height: 70px;
+	}
+}
+@media (max-width:992px)
+{
+	nav ul
+	{
+		
+		float: right;
+		margin-right: 25px;
+	}
+	nav ul li 
+	{
+		display: inline-block;
+		line-height: 80px;
+		margin: 0 35px;
+		font-size: 30px;
+	}
+	.name img
+	{
+		font-size: 35px;
+		position: absolute;
+		margin: 0 100px;
+		margin-top: 7px;
+		width: 70px;
+		height: 70px;
+	}
+@media (max-width:768px)
+{
+	nav
+	{
+		top: 0;
+		left: 0;
+		background-color: pink;
+		height: 160px;
+		width: 100%;
+		
+		
+	}
+	.name img
+	{
+		font-size: 35px;
+		margin: 0 350px;
+		margin-top: 7px;
+		width: 70px;
+		height: 70px;
+
+	}
+	nav ul
+	{
+	
+		float: right;
+		margin-right: 0px;
+		width: 100%;
+		margin-top: 80px;
+		background-color: teal;
+		color: white;
+
+	}
+	nav ul li 
+	{
+		
+		line-height: 80px;
+		margin: 0 45px;
+		font-size: 24px;
+
+	}
+
+}
+@media (max-width:576px)
+{
+	nav
+	{
+		
+		background-color: pink;
+		height: 80px;
+		width: 100%;
+		
+		
+	}
+	nav ul
+	{
+		text-align: center;
+		width: 100%;
+		margin-top: 80px;
+		background-color: teal;
+		color: white;
+
+	}
+	nav ul li 
+	{
+		display: block;
+		line-height: 80px;
+		margin: 0 45px;
+		font-size: 24px;
+
+	}
+	.name img
+	{
+		margin:7px 260px;
+		
+
+	
+
+
+	}
+
+
+}
+@media (max-width: 575.98px)
+{
+	.name img
+	{
+		margin:7px 170px;
+		
+
+	
+
+
+	}
+
+}	
